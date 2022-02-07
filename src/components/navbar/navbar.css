@@ -59,6 +59,10 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.gpt3__navbar-sign button:hover {
+    background: #df791b;
+    transition: 800ms;
+}
 
 .gpt3__navbar-menu {
     margin-left: 1rem;

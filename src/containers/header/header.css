@@ -56,6 +56,9 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+.gpt3__header-content__input input:focus {
+    border: 1px solid rgb(45, 26, 151);
+}
 
 .gpt3__header-content__input button {
     flex: 0.6;
@@ -75,6 +78,12 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.gpt3__header-content__input button:hover {
+    background: #df791b;
+    border: 2px solid #df791b;
+    transition: 800ms;
+}
+
 .gpt3__header-content__people {
     width: 100%;
     display: flex;
